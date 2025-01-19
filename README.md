@@ -1,12 +1,11 @@
 # Clamshell Computer
 
-
 ## Intro
 
 This single page Svelte app is designed to both learn a little Svelte and compute sizes for
 pieces to make a clamshell box following form the designs show [in this blog](https://www.handmadebooksandjournals.com/create-custom-books/boxes-and-slipcases/clamshell-box/clamshell-box-part-1/).
 
-The fractional view is a little fussy in Javascript but for powers of 2 fractions which is 
+The fractional view is a little fussy in Javascript but for powers of 2 fractions which is
 common with measurements like inches which is what all this stuff is right now, it works ok.
 
 # Notes about Svelte
@@ -51,6 +50,6 @@ If you have state that's important to retain within a component, consider creati
 ```js
 // store.js
 // An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+import { writable } from 'svelte/store';
+export default writable(0);
 ```
