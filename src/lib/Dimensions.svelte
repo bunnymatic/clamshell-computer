@@ -1,5 +1,11 @@
 <script>
-  const { dimensions } = $props()
+  const props = $props();
+  const { height, width, depth } = props;
 </script>
 
-<span>{dimensions.height} x {dimensions.width}</span>
+<span>
+  {height} x {width}
+  {#if depth}
+    {' '} x {depth}
+  {/if}
+</span>

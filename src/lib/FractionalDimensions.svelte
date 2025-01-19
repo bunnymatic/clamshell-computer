@@ -1,11 +1,10 @@
 <script>
-  import { decimalToFraction } from "./decimalToFraction";
-  const { dimensions } = $props()
+  const { height, width, depth } = $props();
 </script>
 
 <span>
-  {decimalToFraction(dimensions.height)} x {decimalToFraction(dimensions.width)}
-  {#if (dimensions.depth)}
-  {' '} x {decimalToFraction(dimensions.depth)}
+  {height} x {width}
+  {#if depth}
+    {' '} x {depth}
   {/if}
 </span>
