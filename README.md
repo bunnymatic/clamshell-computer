@@ -5,10 +5,12 @@
 This single page Svelte app is designed to both learn a little Svelte and compute sizes for
 pieces to make a clamshell box following form the designs show [in this blog](https://www.handmadebooksandjournals.com/create-custom-books/boxes-and-slipcases/clamshell-box/clamshell-box-part-1/).
 
-The fractional view is a little fussy in Javascript but for powers of 2 fractions which is
-common with measurements like inches which is what all this stuff is right now, it works ok.
+It's currently designed to be unitless but I would like to someday introduce the notion of inches vs mm and for inches
+we'd show fractions.  Computing them with JS is a little fussy sometimes so still working on a decent solution.
 
 # Notes about Svelte
+
+Below here is basically the Svelte app init readme.
 
 ## Recommended IDE Setup
 
