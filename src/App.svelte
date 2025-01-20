@@ -1,6 +1,7 @@
 <script>
   import Computer from './lib/Computer.svelte';
   import Diagram from './lib/Diagram.svelte';
+  import Instructions from './lib/Instructions.svelte';
   import TableOfParts from './lib/TableOfParts.svelte';
   import { appData } from './lib/appContext';
 
@@ -10,6 +11,9 @@
 
 <main>
   <h1>Clamshell</h1>
+  <section>
+    <Instructions />
+  </section>
   <section>
     <Computer />
   </section>
