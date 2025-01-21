@@ -103,17 +103,15 @@
   form {
     display: flex;
     flex-direction: row;
+    gap: 16px;
     > .form-inputs {
       flex: 1;
     }
   }
   .form-inputs {
     display: flex;
-    gap: 10px;
+    gap: 6px;
     flex-direction: column;
-    + .form-inputs {
-      border-left: 1px solid lightgrey;
-    }
   }
   .form-input__container {
     display: flex;

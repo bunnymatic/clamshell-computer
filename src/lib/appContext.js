@@ -1,11 +1,11 @@
 import { writable } from 'svelte/store';
 
 const initialValues = {
-  height: 130,
-  width: 105,
-  depth: 30,
+  height: 160,
+  width: 110,
+  depth: 51,
   boardThickness: 3,
-  gap: 3,
+  gap: 2,
   lidOverlap: 3,
 };
 

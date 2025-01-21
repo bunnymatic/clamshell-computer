@@ -31,8 +31,8 @@
         y="0"
         width={scaledDims.width}
         height={scaledDims.height}
-        stroke="grey"
-        stroke-width="3px"
+        stroke="darkblue"
+        stroke-width="1px"
         fill="white"
       />
       <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
