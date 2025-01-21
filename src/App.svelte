@@ -1,6 +1,7 @@
 <script>
   import Computer from './lib/Computer.svelte';
   import Diagram from './lib/Diagram.svelte';
+  import InchesToMillimetersConverter from './lib/InchesToMillimetersConverter.svelte';
   import Instructions from './lib/Instructions.svelte';
   import TableOfParts from './lib/TableOfParts.svelte';
   import { appData } from './lib/appContext';
@@ -13,6 +14,9 @@
   <h1>Clamshell</h1>
   <section>
     <Instructions />
+  </section>
+  <section>
+    <InchesToMillimetersConverter />
   </section>
   <section>
     <Computer />
